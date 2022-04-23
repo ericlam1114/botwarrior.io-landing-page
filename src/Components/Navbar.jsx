@@ -21,7 +21,7 @@ const Navbar = () => {
 
     return (
         <nav id="theNav" className={nav ? 'nav active' : 'nav'}>
-            <a href="#" className="logo">
+            <a href="/" className="logo">
 
                 <img src={logo} alt="" />
 
