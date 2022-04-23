@@ -20,7 +20,7 @@ const Navbar = () => {
     window.addEventListener('scroll', changeBackground);
 
     return (
-        <nav className={nav ? 'nav active' : 'nav'}>
+        <nav id="theNav" className={nav ? 'nav active' : 'nav'}>
             <a href="#" className="logo">
 
                 <img src={logo} alt="" />
@@ -34,7 +34,7 @@ const Navbar = () => {
                 <li><a href='/'>Home</a></li>
                 <li><a href='/Features'>Features</a></li>
                 <li><a href='/About'>About</a></li>
-                <li><a href='/Waitlist'>Waitlist</a></li>
+                <li><a href='/'>Waitlist</a></li>
                 {/* <li><a href='#'>Download</a></li> */}
             </ul>
         </nav>
