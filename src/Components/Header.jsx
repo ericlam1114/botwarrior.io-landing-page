@@ -38,8 +38,8 @@ const Header = () => {
             <h1><span>Win The Internet</span> by gaining an edge on the competition</h1>
             <p className="details">Join the increasing number of internet natives signing up for the first bot and automation tools marketplace.</p>
            <div>
-            <div className="contact-input"> 
-            <input onChange={handleInputChange} type='email' value={email} onBlur={(e) => e.target.placeholder = 'example@gmail.com'} onFocus={(e) => e.target.placeholder = ''} placeholder='example@gmail.com' required /><a href="/"><button className="buttonStyle" >Join Now</button></a>
+            <div className="contact-input contact-center"> 
+            <input  onChange={handleInputChange} type='email' value={email} onBlur={(e) => e.target.placeholder = 'example@gmail.com'} onFocus={(e) => e.target.placeholder = ''} placeholder='example@gmail.com' required /><a href="/"><button className="buttonStyle" >Join Now</button></a>
            </div></div></div><div className="shiftThis">
                 <SideImage /></div>
             </div></div>
