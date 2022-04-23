@@ -3,7 +3,7 @@ import logo from '../images/botshot.png';
 
 const SideImage = () => {
     return(
-<div> <a href="#" className="logoToo">
+<div> <a href="/" className="logoToo">
 
 <img src={logo} alt="" />
 

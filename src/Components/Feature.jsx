@@ -11,9 +11,9 @@ const Feature = (props) => {
             <h1 className="nameToo" >Premier Bot Marketplace</h1>
 
             <div className='a-container'>
-                <FeatureBox image={featureimage1} title="Profitability" description="Businesses that utilize bots and automation grow revenue 220% faster than those that don't." />
-                <FeatureBox image={featureimage} title="Optimization" description="Free your time from mundane manual tasks to focus on strategy and profitability." />
-                <FeatureBox image={featureimage2} title="Advantage" description="Bots and automation level the playing field so that you can compete more effectively." />
+                <FeatureBox image={featureimage1} title="Profitability" alt="automation is more profitable" description="Businesses that utilize bots and automation grow revenue 220% faster than those that don't." />
+                <FeatureBox image={featureimage} title="Optimization" alt="optimize your time with automation" description="Free your time from mundane manual tasks to focus on strategy and profitability." />
+                <FeatureBox image={featureimage2} title="Advantage" alt="gain a competitive advantage over competitors with automation" description="Bots and automation level the playing field so that you can compete more effectively." />
 
             </div>
 

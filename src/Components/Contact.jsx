@@ -43,7 +43,7 @@ const Contact = () => {
                 <h3>Want to Join Us?</h3>
                 <p>Get $10 off your first bot when you sign up.</p>
                 <div className="contact-input">
-                    <input onChange={handleInputChange} type='email' value={email} onBlur={(e) => e.target.placeholder = 'example@gmail.com'} onFocus={(e) => e.target.placeholder = ''} placeholder='example@gmail.com' required /><a ><button className="buttonStyle" >Join Now</button></a>
+                    <input onChange={handleInputChange} type='email' value={email} onBlur={(e) => e.target.placeholder = 'example@gmail.com'} onFocus={(e) => e.target.placeholder = ''} placeholder='example@gmail.com' required /><a href="#" ><button className="buttonStyle" >Join Now</button></a>
 
                 </div>
 
