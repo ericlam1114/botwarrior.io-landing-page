@@ -33,6 +33,8 @@ return (
 		<Column>
 			<Heading>About</Heading>
 			<FooterLink href="/">Developed in 2022 by R.O. Ventures.</FooterLink>
+			<FooterLink href="/">ryan@botwarrior.io</FooterLink>
+			<FooterLink href="/">Los Angeles, CA</FooterLink>
 			{/* <FooterLink href="/">Internships</FooterLink>
 			<FooterLink href="/">Coding</FooterLink>
 			<FooterLink href="/">Teaching</FooterLink> */}
