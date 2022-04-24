@@ -36,7 +36,7 @@ const Header = () => {
             <div className="flexHeader"><div>
             <div className="name">
             <h1><span>Win The Internet</span> by gaining an edge on the competition</h1>
-            <p className="details">Join the increasing number of internet natives signing up for the first bot and automation tools marketplace.</p>
+            <p className="details">Join over a thousand internet natives signing up for the first bot and automation tools marketplace.</p>
             <p><strong>Get $10 off your first bot when you join pre-launch.</strong></p>
            <div>
             <div className="contact-input contact-center"> 
