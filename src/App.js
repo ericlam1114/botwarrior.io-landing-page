@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from "./Components/Header";
-import Feature from "./Components/Feature";
+// import Feature from "./Components/Feature";
 // import About from "./Components/About";
 // import Presentation from './Components/Presentation';
 // import aboutimage from "./images/about.png";
@@ -14,9 +14,9 @@ function App() {
     <div className="App">
       <Header id="home" />
 
-      <Feature />
+      {/* <Feature /> */}
 
-      <Contact />
+      {/* <Contact /> */}
 
       <Footer />
     </div>
