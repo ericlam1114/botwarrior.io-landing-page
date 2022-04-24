@@ -32,7 +32,7 @@ const Navbar = () => {
             </label>
             <ul className='menu'>
                 <li><a href='/'>Home</a></li>
-                <li><a href='/Features'>Features</a></li>
+                <li><a href='/'>Features</a></li>
                 {/* <li><a href='/About'>About</a></li> */}
                 <li><a href='/'>Waitlist</a></li>
                 {/* <li><a href='#'>Download</a></li> */}
