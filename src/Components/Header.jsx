@@ -41,7 +41,9 @@ const Header = () => {
            <div>
             <div className="contact-input contact-center"> 
             <input  onChange={handleInputChange} type='email' value={email} onBlur={(e) => e.target.placeholder = 'example@gmail.com'} onFocus={(e) => e.target.placeholder = ''} placeholder='example@gmail.com' required /><a href="/"><button className="buttonStyle" >Join Now</button></a>
+
            </div></div></div><div className="shiftThis">
+            
                 <SideImage /></div>
             </div></div>
 </form>
